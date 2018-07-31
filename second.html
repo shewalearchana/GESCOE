@@ -1,0 +1,60 @@
+<html>
+<head>
+<script>
+	function alertb(){
+		alertb("REGISTRATION SUCESSFUL!!!!")
+
+	}
+//function go(){
+//window.location="start.html";
+//}
+</script>
+</head>
+<body style="background-color:   #C5F2F8">
+<form type=get action="empdata.jsp">
+<b><font size="5" color="#1985CD"><marquee direction="right">STUDENT REGISTRATION FORM</marquee></font></b><br>
+ <center>
+<form>
+<table border=2 bgcolor=grey>
+
+<tr >
+<th bgcolor=9999CC><i><b>Student Personal Details</b></i></th>
+</tr>
+
+<td>Name<input type=text name= fnm size=15 placeholder="First Name"><input type=text name=mnm size=15 placeholder="Middle Name"><input type=text name=lnm size=15 placeholder="Last Name">
+<br>
+
+<br></td></tr>
+<tr><td>Address	<br><textarea rows=3 col=3 name=address placeholder="Enter Address"></textarea><br><br></td></tr>
+<tr><td>Adhar Card Number<br><textarea rows=1 col=3 name=adhar placeholder="Enter Adhar No"></textarea><br><br></td></tr>
+
+<tr><td>Contact No<br><textarea rows=1 col=3 name=contact placeholder="Enter phone no" maxlength = 10></textarea><br><br></td></tr>
+
+<tr><td>Date of Birth<input name=dob type=date placeholder="DD/MM/YYYY"><br><br></td></tr>
+<tr><td>Gender	<input type=radio name=m>Male<input type=radio name=m>Female<br><br></td></tr>
+<tr><td><br>
+<tr><td>Email ID<input type=email name=email placeholder="abc@gmail.com" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autofocus><br><br></td></tr>
+
+
+<tr><td>Password:<br>
+    <input type="password" name="pwd" placeholder="Enter Password"  >
+    <br></td></tr>
+<tr><td><br>
+    confirm Password:<br>
+    <input type="password" name="cpwd" placeholder="Confirm password"  >
+    <br></td></tr>
+
+<tr><td>Select Course<select name="course">
+<option value="Computer">Computer</option>
+<option value="Civil">Civil</option>
+<option value="Mechanical">Mechanical</option>
+<option value="E&TC">E&TC</option>
+<option value="Electrical">Electrical</option>
+<br><br></td></tr>
+
+<tr><td><input type=button value=Submit onclick="alertb()"> <input type=reset value=Reset></td></tr>
+</table>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+<html>
+<head>
+<script>
+function alertb(){
+alert("Login successful!");
+}
+</script>
+</head>
+<body style="background-image: url('clg.jpg')">
+
+
+<style>
+a
+{
+ 	color:purple;
+
+}
+
+</style>
+  
+
+<center><h1 style="color:blue">Gokhale Education Society's. R. H. Sapat College Of Engineering, Management Studies And Research,Nashik,INDIA</h1></center>
+<marquee style="color:green">Welcome to Gokhale Education Socity collage of Engineering, Nashik</marquee>
+<style>
+p {
+    border: 1px solid Tomato;
+     padding: 20px;
+}
+</style>
+<p>This is website for Gokhale Education collage of Engineereing ,Nashik.Here provide all course details about GESCOE collage. Introduction about the collage campus.</p>
+<ul>
+<a class="a" title="Home">Home</a>
+<a class="a" title="About">AboutUs</a></li>
+<a class="a" title="Contact">contactUs</a>
+<a class="a" title="Registration">Registration</a>
+<a class="a" title="Online Course">onlineCourse</a>
+</ul>
+<style>
+  form{
+        background-color: lightblue;
+      
+    margin: 20px;
+    width: 30%;
+    border: 4px solid #73AD21;
+    padding: 40px;
+}
+</style>
+
+<form>
+  <fieldset>
+    <legend>Login Pannel:</legend>
+    User name/Email:<br>
+    <input type="text" name="firstname" >
+    <br>
+    Password:<br>
+    <input type="password" name="lastname" >
+    <br><br>
+    <input type="submit" value="Login" onclick="alertb()">
+  </fieldset>
+</form>
+
+</body>
+</html>

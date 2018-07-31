@@ -1,0 +1,72 @@
+<html>
+
+<body style="background-color:   #C5F2F8">
+<form type=get action="empdata.jsp">
+<b><font size="5" color="#1985CD"><marquee direction="right">EMPLOYEE REGISTRATION FORM</marquee></font></b><br>
+<table cellpadding="10"  cellspacing="10" align=center bgcolor=" #C5F2F8">
+<tr bgcolor=  #33CCFF>
+<td colspan=3><center><b>Employee Details</b></center></td>
+</tr>
+<tr>
+<td> Name</td>
+<td colspan=3><input type=text name=fnm size=19 placeholder="first name"> <input type=text name=lnm size=20 placeholder="last name"><br></td>
+</tr>
+<tr>
+<td> Address</td>
+<td colspan=3><textarea name=address rows=1 cols=62></textarea><br></td>
+</tr>
+<tr>
+<td>Contact No</td>   
+<td colspan=3><input type=text name=contact maxlength=10><br></td>
+</tr>
+<tr>
+<td>Date of Birth </td>
+<td colspan=3><input type=date name=dob placeholder="DD/MM/YYYY"></td>
+</tr>
+<tr>
+<td>Gender </td>
+<td colspan=3><input type=radio name=m>Male
+              <input type=radio name=f>Female</td>
+</tr>
+<tr>
+<td>Designation</td>   
+<td colspan=3><input type=text name=desig maxlength=10><br></td>
+</tr>
+<tr>
+<td>City</td>
+<td colspan=3><select name="city" >
+			<option value="select">select</option>
+			<option value="Nashik">Nashik</option>
+	       	<option value="Mumbai">Mumbai</option>
+	        <option value="Pune">Pune</option>                                               
+	       	<option value="Chennai">Chennai</option>
+	       	<option value="Delhi">Delhi</option></td>
+</tr>
+<tr>
+<td>State</td>
+<td colspan=3><select name="state" >
+			<option value="select">select</option>
+			<option value="Maharashtra">Maharashtra</option>
+	       	<option value="Madhya Pradesh">Madhya Pradesh</option>
+	        <option value="Andhra Pradesh">Andhra Pradesh</option>                                               
+	       	<option value="Asam">Asam</option>
+	       	<option value="Kerala">Kerala</option></td>
+</tr>
+<tr>
+<td>Country</td>
+<td colspan=3><select name="country">
+			<option value="select">select</option>
+			<option value="India">India</option>
+	       	<option value="USA">USA</option>
+	        <option value="SRI LANKA">SRI LANKA</option>                                               
+	       	<option value="UK">UK</option>
+	       	<option value="RASIA">RASIA</option></td>
+</tr>
+<tr>
+<td><input type=submit value=Submit>&nbsp &nbsp<input type=reset value=Reset></td>
+</tr>
+
+
+</table> 
+</body>    
+</html>

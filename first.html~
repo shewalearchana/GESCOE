@@ -1,0 +1,26 @@
+<html>
+<body style="background-image: url('College.jpg')">
+<body>
+<link rel="stylesheet" href="styles.css">
+ <h1><center> <font size = 6 color= Red ><i>Welcome to Gokhale Education Society's. R. H. Sapat College Of Engineering, Management Studies And Research,Nashik</i></font></center></h1>
+
+<style>
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<a href="second.html" class="button">NEXT</a>
+
+</html>

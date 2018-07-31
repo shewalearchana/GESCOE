@@ -1,0 +1,57 @@
+<html>
+<head>
+<script>
+function go(){
+window.location="start.html";
+}
+</script>
+</head>
+<body>
+<style>
+body {background-color: LightGray;}
+</style>
+ <h1><center> <font size = 6 color= Black style="background-color:Tomato;" ><i>Registration Form</i></font></center></h1>
+ <center>
+<form>
+<table border=2 bgcolor=grey>
+
+<tr >
+<th bgcolor=9999CC><i><b>Personal Details</b></i></th>
+</tr>
+
+<td>Name<input type=text size=15 placeholder="First Name"><input type=text size=15 placeholder="Middle Name"><input type=text size=15 placeholder="Last Name">
+<br>
+
+<br></td></tr>
+<tr><td>Address	<br><textarea rows=3 col=3 placeholder="Enter Address"></textarea><br><br></td></tr>
+<tr><td>Adhar Card Number<br><textarea rows=1 col=3 placeholder="Enter Adhar No"></textarea><br><br></td></tr>
+
+<tr><td>Contact No<br><textarea rows=1 col=3 placeholder="Enter phone no" maxlength = 10></textarea><br><br></td></tr>
+
+<tr><td>Date of Birth<input type=date><br><br></td></tr>
+<tr><td>Email ID<input type=email><br><br></td></tr>
+
+
+<tr><td>Gender	<input type=radio name=a>Male<input type=radio name=a>Female<br><br></td></tr>
+<tr><td><br>
+    Password:<br>
+    <input type="password" name="lastname" >
+    <br></td></tr>
+<tr><td><br>
+    confirm Password:<br>
+    <input type="password" name="lastname" >
+    <br></td></tr>
+
+<tr><td>Select Course<select>
+<option>Computer</option>
+<option>Civil</option>
+<option>Mechanical</option>
+<option>E&TC</option>
+<option>Electrical</option>
+<br><br></td></tr>
+
+<tr><td><input type=button value=Submit onclick="go()"> <input type=reset value=Reset></td></tr>
+</table>
+</body>
+</html>
+
